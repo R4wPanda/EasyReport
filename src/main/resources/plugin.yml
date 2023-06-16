@@ -1,0 +1,10 @@
+name: EasyReport
+version: '${project.version}'
+main: me.r4wpanda.easyreport.EasyReportMain
+api-version: 1.19
+commands:
+  reportlist:
+    description: Check all reports
+    permission: easyreport.staff
+  report:
+    description: Report another player!
